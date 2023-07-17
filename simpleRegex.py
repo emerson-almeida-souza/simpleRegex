@@ -55,8 +55,9 @@ class MatchsPattern:
         return match
 
 
-texto = """Emerson é lindo, Emerson é esbelto, meu cpf é 451.678.948.59, meu email é: em3rals@gmail.com.
-Meu numero é: (19) 9 98278650"""
+texto = """Meu cpf é 000.000.000.00, meu email é: em3rals@gmail.com.
+Meu numero é: (00) 9 00000000"""
+
 padrao = ""
 
 matchs = MatchsPattern(texto)
